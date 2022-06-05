@@ -126,8 +126,8 @@
   <div class="container">
     <div class="row align-items-center">
       <div class="col-md-6 order-2 order-md-1">
-        <h2 class="section-title">About NIFES</h2>
-        <p>NACF is the National Body for all NIFES Graduates in North America, consisting of U.S and Canada. NACF North America was inaugurated in 2012 with the influence of Bro Ebere Eze, the then NIFES Director of Associates, who visited some brethren in New Jersey that year.</p>
+        <h2 class="section-title" data-aos="zoom-in">About NIFES</h2>
+        <p data-aos="fade-right">NACF is the National Body for all NIFES Graduates in North America, consisting of U.S and Canada. NACF North America was inaugurated in 2012 with the influence of Bro Ebere Eze, the then NIFES Director of Associates, who visited some brethren in New Jersey that year.</p>
         <a href="about.html" class="btn btn-primary-outline">Learn more</a>
       </div>
       <div class="col-md-6 order-1 order-md-2 mb-4 mb-md-0">
@@ -143,10 +143,10 @@
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <h2 class="text-white font-secondary text-center mb-2">Membership</h2>
+        <h2 class="text-white font-secondary text-center mb-2" data-aos="zoom-in">Membership</h2>
         <div class="jumbotron">
 
-          <ul class="list-styled">
+          <ul class="list-styled" data-aos="zoom-out">
             <li class="mb-2">All Graduates of higher institutions of Nigerian Schools who attended NIFES.</li>
             <li class="mb-2">All organized local campus Alumni groups in the United States and Canada</li>
             <li class="mb-2">Interested believers from other Nigerian campus fellowships residing in the United States and Canada</li>
@@ -169,10 +169,10 @@
         <img class="img-fluid w-100" src="images/about/about-us.jpg" alt="about image">
       </div>
       <div class="col-md-6 order-12 order-md-1">
-        <h2 class="section-title">Vision</h2>
-        <p>To serve as a national body to ALL NIFES graduates and local Alumni groups residing in North America (U.S and Canada), for a wider fellowship, for professional networking and for leveraging our resources to give back to NIFES Nigeria. 
+        <h2 class="section-title" data-aos="zoom-out">Vision</h2>
+        <p data-aos="fade-left">To serve as a national body to ALL NIFES graduates and local Alumni groups residing in North America (U.S and Canada), for a wider fellowship, for professional networking and for leveraging our resources to give back to NIFES Nigeria. 
 
-        <div class="alert alert-secondary">Inspiring one Another; Stronger Together; Serving the Lord.</div>
+        <div class="alert alert-secondary" data-aos="flip-left">Inspiring one Another; Stronger Together; Serving the Lord.</div>
 </p>
         <a href="about.html" class="btn btn-primary-outline">Learn more</a>
       </div>
@@ -195,8 +195,10 @@
       </div>
       <div class="col-lg-9 col-sm-8">
         <div class="bg-white p-5">
-          <h2 class="section-title">Coordinator’s Message</h2>
-          <div class="jumbotron">
+          <h2 class="section-title" data-aos="fade-down">Coordinator’s Message</h2>
+          <div class="jumbotron" data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="1500">
             "I welcome you to this medium of information and connection with the NACF NA activities. The Nifes Associate Community Fellowship, North America, has come a long way; from its inauguration in 2012, to its first national conference in Houston Texas in 2014. Then New Jersey in 2016, Dallas Texas in 2018 and New York in 2022. The NACF fellowship meetings here in North America and the conferences evoke the aura of conferences back in the homeland when we traverse the length and breadth of our native country in search of an encounter with the God of heaven in our campus days. And because our motives were pure, desires were sincere and the hunger for God was genuine, many had encounters that set the stage for a lifelong pursuit of God as it is today.
 
             <a class="text-primary" data-toggle="collapse" data-target="#demo">Read more</a>
@@ -443,7 +445,7 @@
 <!-- slick slider -->
 <script src="plugins/slick/slick.min.js"></script>
 <!-- aos -->
-<script src="plugins/aos/aos.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <!-- venobox popup -->
 <script src="plugins/venobox/venobox.min.js"></script>
 <!-- filter -->
@@ -455,7 +457,9 @@
 
 <!-- Main Script -->
 <script src="js/script.js"></script>
-
+<script>
+  AOS.init();
+</script>
 
 </body>
 </html>
